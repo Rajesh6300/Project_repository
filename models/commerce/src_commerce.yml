@@ -1,27 +1,28 @@
 version: 2
 
 sources:
- -name:commerce
-  database:nopCommerce
-  schema:Commerce
-  tables:
-     -name:Nop_Order
-     -name:Nop_OrderProductVariant
-     -name:Stores
-     -name:Nop_Customer
-     -name:Nop_Address
-     -name:Nop_PaymentMethod
-     -name:Nop_ProductVariant
-     -name:Nop_Product
-     -name:Nop_Product_Category_Mapping
-     -name:Nop_Category
-     -name:Stores
-     -name:Suppliers
-     -name:Florists
-     -name:Nop_OrderProductVariantFulFillingFlorist
-     -name:Nop_OrderStatus
-     -name:Nop_PaymentStatus
-     -name:Nop_ShippingStatus
-     -name:Nop_OrderIssue
-     -name:Nop_OrderNote
-     -name:Nop_Customer_CustomerRole_Mapping
+  -name: commerce
+   database: nopCommerce
+
+   schema: Commerce
+   tables:
+     - name: Nop_Order
+     - name: Nop_OrderProductVariant
+     - name: Stores
+     - name: Nop_Customer
+     - name: Nop_Address
+     - name: Nop_PaymentMethod
+     - name: Nop_ProductVariant
+     - name: Nop_Product
+     - name: Nop_Product_Category_Mapping
+     - name: Nop_Category
+     - name: Stores
+     - name: Suppliers
+     - name: Florists
+     - name: Nop_OrderProductVariantFulFillingFlorist
+     - name: Nop_OrderStatus
+     - name: Nop_PaymentStatus
+     - name: Nop_ShippingStatus
+     - name: Nop_OrderIssue
+     - name: Nop_OrderNote
+     - name: Nop_Customer_CustomerRole_Mapping
