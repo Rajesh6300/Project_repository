@@ -1,1 +1,1 @@
-select * from raw.dbt_rajesh789388.emp
+select * from raw.stripe.payment;
