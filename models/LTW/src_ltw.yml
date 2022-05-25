@@ -1,0 +1,8 @@
+version: 2
+ 
+sources:
+ -name:ltw
+  database:funeralOneChild
+  schema:LTW
+  tables:
+   -name:Tributes

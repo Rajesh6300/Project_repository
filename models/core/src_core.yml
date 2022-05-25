@@ -1,0 +1,9 @@
+version: 2
+ 
+sources:
+ -name:core
+  database:funeralOneCore
+  schema:Core
+  tables:
+   -name:Accounts
+   
